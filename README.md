@@ -1,41 +1,40 @@
 # Catalogo de produtos genéricos
 
-## criação de produto
+## Criação de Produto
 Request Body (Json):\
 {\
     "name" : "caneta",\
-    "price" : 10\
+    "price" : "10"\
 }\
 URL: localhost:8080/RestApi/product/save
 
-## edição de produto
+## Edição de Produto
 Request Body (Json): \
 {\
-    "name" : "caneta",\
-    "price" : 10\
+    "name" : "caneta"\
+    "price" : "10"\
 }\
 URL: localhost:8080/RestApi/product/edit/{id}
 
-## exclusão de produto
+## Exclusão de Produto
 Request Body (Json):\
 {\
-    "name" : "caneta",\
-    "price" : 10\
+    "name" : "caneta"\
+    "price" : "10"\
+    "id" : "1"\
 }\
 URL: localhost:8080/RestApi/product/delete/{id}
 
-## edição de nome de produto
+## Edição de Nome de Produto
 Request Body (Json): \
 {\
-    "name" : "caneta",\
-    "price" : 10\
+    "name" : "caneta"\
 }\
 URL: localhost:8080/RestApi/product/editName/{id}/{name}
 
-## filtrar produtos
+## Filtrar Produto
 Request Body (Json): \
 {\
-    "name" : "caneta",\
-    "price" : 10\
+    "id" : "1"\
 }\
 URL: localhost:8080/RestApi/productsDefault/
