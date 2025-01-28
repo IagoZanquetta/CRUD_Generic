@@ -1,4 +1,4 @@
-# Catalogo de produtos genéricos
+# CRUD Generic
 
 ## Criação de Produto
 Request Body (Json):\
